@@ -1,8 +1,7 @@
 import React, { Component } from 'react'
 
 class AddItem extends Component {
-
-  constructor(props) {
+  constructor (props) {
     super(props)
     this.state = {value: ' '}
 
@@ -23,6 +22,7 @@ class AddItem extends Component {
     return (
       <div>
         <h2>This is the add Item page. </h2>
+        <a href='/'>Home</a>
         <div className='container'>
           <form onSubmit={this.handleSubmit}>
             <label>
