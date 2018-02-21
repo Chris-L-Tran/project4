@@ -1,9 +1,16 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
+import { Route, Switch, Link } from 'react-router-dom'
+import { Navbar, Nav, NavItem } from 'react-bootstrap'
 import logo from './logo.svg'
 import './App.css'
 
+import AddItem from './components/AddItem'
+
 class App extends Component {
+  state = {
+    value: ''
+  }
+
   render () {
     return (
       <div className='App'>
@@ -15,7 +22,23 @@ class App extends Component {
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
 
-        <Link to={`/add`} activeClassName='active'> Add Items </Link>
+        <Navbar inverse collapseOnSelect>
+            <Navbar.Header>
+              <Navbar.Brand>
+                <a href="/">MCU</a>
+              </Navbar.Brand>
+            </Navbar.Header>
+            <Nav>
+            <Link to='/add'>Add an Item</Link>
+            <NavItem href='/add'>Add an Item</NavItem>
+          </Nav>
+        </Navbar>
+
+        <Switch>
+          <Route exact path='/add'
+            render={props => <AddItem {...props} value = ''/>}
+          />
+        </Switch>
       </div>
     )
   }
