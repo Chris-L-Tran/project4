@@ -24,25 +24,22 @@ class App extends Component {
 
         <Navbar inverse>
             <Navbar.Header>
-              <Navbar.Brand>
-                <a href="/">MCU</a>
-              </Navbar.Brand>
+              <NavDropdown title={
+                <Button>
+                  <Glyphicon glyph="align-justify" />
+                </Button>
+                }
+                id='basic-nav-dropdown'>
+                <MenuItem>Item 1</MenuItem>
+                <MenuItem>Item 2</MenuItem>
+                <MenuItem>Item 3</MenuItem>
+              </NavDropdown>
             </Navbar.Header>
 
             <Nav>
 
             <Link to='/add'>Add an Item</Link>
             <NavItem href='/add'>Add an Item</NavItem>
-            <NavDropdown title={
-              <Button>
-                <Glyphicon glyph="align-justify" />
-              </Button>
-              }
-              id='basic-nav-dropdown'>
-              <MenuItem>Item 1</MenuItem>
-              <MenuItem>Item 2</MenuItem>
-              <MenuItem>Item 3</MenuItem>
-            </NavDropdown>
 
           </Nav>
         </Navbar>
