@@ -7,6 +7,7 @@ import './App.css'
 import AddItem from './components/AddItem'
 import About from './pages/About/About'
 import Home from './pages/Home/Home'
+import NavBar from './components/NavBar/NavBar'
 
 class App extends Component {
   state = {
@@ -23,29 +24,8 @@ class App extends Component {
         <p className='App-intro'>
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
-        <div className = 'nav'>
-        <Navbar inverse>
-            <Navbar.Header>
-              <NavDropdown title={
-                <Button>
-                  <Glyphicon glyph="align-justify" />
-                </Button>
-                }
-                noCarat>
-                <MenuItem href='/'>Home</MenuItem>
-                <MenuItem>Item 2</MenuItem>
-                <MenuItem href='/about'>About</MenuItem>
-              </NavDropdown>
-            </Navbar.Header>
 
-            <Nav pullRight>
-
-            <Link to='/add'>Add an Item</Link>
-            <NavItem href='/add'>Add an Item</NavItem>
-
-          </Nav>
-        </Navbar>
-      </div>
+        <NavBar />
 
         <Switch>
           <Route exact path ='/'
