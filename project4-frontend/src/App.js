@@ -5,6 +5,8 @@ import logo from './logo.svg'
 import './App.css'
 
 import AddItem from './components/AddItem'
+import About from './pages/About/About'
+import Home from './pages/Home/Home'
 
 class App extends Component {
   state = {
@@ -30,9 +32,9 @@ class App extends Component {
                 </Button>
                 }
                 noCarat>
-                <MenuItem>Item 1</MenuItem>
+                <MenuItem href='/'>Home</MenuItem>
                 <MenuItem>Item 2</MenuItem>
-                <MenuItem>Item 3</MenuItem>
+                <MenuItem href='/about'>About</MenuItem>
               </NavDropdown>
             </Navbar.Header>
 
@@ -46,8 +48,14 @@ class App extends Component {
       </div>
 
         <Switch>
+          <Route exact path ='/'
+            render={props => <Home {...props} value =''/> }
+          />
           <Route exact path='/add'
             render={props => <AddItem {...props} value = ''/>}
+          />
+          <Route exact path='/About'
+            render={props => <About {...props} value =''/>}
           />
         </Switch>
       </div>
