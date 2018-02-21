@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Route, Switch, Link } from 'react-router-dom'
-import { Navbar, Nav, NavItem, MenuItem, NavDropdown } from 'react-bootstrap'
+import { Navbar, Nav, NavItem, MenuItem, NavDropdown, Button, Glyphicon } from 'react-bootstrap'
 import logo from './logo.svg'
 import './App.css'
 
@@ -22,20 +22,28 @@ class App extends Component {
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
 
-        <Navbar inverse collapseOnSelect>
+        <Navbar inverse>
             <Navbar.Header>
               <Navbar.Brand>
                 <a href="/">MCU</a>
               </Navbar.Brand>
             </Navbar.Header>
+
             <Nav>
+
             <Link to='/add'>Add an Item</Link>
             <NavItem href='/add'>Add an Item</NavItem>
-            <NavDropdown title='dropdown' id='basic-nav-dropdown'>
+            <NavDropdown title={
+              <Button>
+                <Glyphicon glyph="align-justify" />
+              </Button>
+              }
+              id='basic-nav-dropdown'>
               <MenuItem>Item 1</MenuItem>
               <MenuItem>Item 2</MenuItem>
               <MenuItem>Item 3</MenuItem>
             </NavDropdown>
+
           </Nav>
         </Navbar>
 
