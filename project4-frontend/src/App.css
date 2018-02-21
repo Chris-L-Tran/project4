@@ -6,6 +6,9 @@
   margin-left: 50px;
 }
 
+.caret {
+  display: none;
+}
 .dropdown {
   margin-top: 8px;
 }

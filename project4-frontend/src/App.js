@@ -29,14 +29,14 @@ class App extends Component {
                   <Glyphicon glyph="align-justify" />
                 </Button>
                 }
-                id='basic-nav-dropdown'>
+                noCarat>
                 <MenuItem>Item 1</MenuItem>
                 <MenuItem>Item 2</MenuItem>
                 <MenuItem>Item 3</MenuItem>
               </NavDropdown>
             </Navbar.Header>
 
-            <Nav>
+            <Nav pullRight>
 
             <Link to='/add'>Add an Item</Link>
             <NavItem href='/add'>Add an Item</NavItem>
