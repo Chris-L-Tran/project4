@@ -21,7 +21,7 @@ class App extends Component {
         <p className='App-intro'>
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
-
+        <div className = 'nav'>
         <Navbar inverse>
             <Navbar.Header>
               <NavDropdown title={
@@ -43,6 +43,7 @@ class App extends Component {
 
           </Nav>
         </Navbar>
+      </div>
 
         <Switch>
           <Route exact path='/add'
