@@ -4,43 +4,38 @@ import './Movies.css'
 import axios from 'axios'
 
 class Movies extends Component {
-  componentDidMount = () => {
-    let path = this.props.location.pathname
-
-    this.setState({
-      path: path
-    })
-
-    this. state = {
+  constructor (props) {
+    super(props)
+    this.state = {
+      testText: 'Testing',
       movies: []
     }
+  }
 
+  componentDidMount () {
     axios
-      .get('http://localhost:9000')
-      .then((res, err) => {
-        console.log(res)
+      .get('http://localhost:9000/')
+      .catch(err => console.log(err))
+      .then((res) => {
+        console.log(res.data)
         this.setState({
           movies: res.data
         })
-      })
-      .catch(err => {
-        console.log(err)
+        console.log(this.state.movies)
       })
   }
-
 
   render () {
     return (
       <div className='all-movies'>
         <div className='movies-list'>
-          {this.state.movies}
-          {/* {this.state.movies.map((item, idx) => {
+          {this.state.movies.map((item, idx) => {
             return <div className='movie'>
               <h1>{item.title}</h1>
-              <img src={item.img_url}></img>
+              <img src={item.img_url} />
               <p>{item.year}</p>
             </div>
-          })} */}
+          })}
         </div>
       </div>
     )
