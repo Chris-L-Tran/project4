@@ -17,8 +17,8 @@ export default class NavBar extends Component {
               }
               noCarat>
               <MenuItem href='/'>Home</MenuItem>
-              <MenuItem>Item 2</MenuItem>
-              <MenuItem href='/about'>About</MenuItem>
+              <MenuItem href='/Movies'>Movies</MenuItem>
+              <MenuItem href='/About'>About</MenuItem>
             </NavDropdown>
           </Navbar.Header>
 

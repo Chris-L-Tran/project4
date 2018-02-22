@@ -8,6 +8,7 @@ import AddItem from './components/AddItem'
 import About from './pages/About/About'
 import Home from './pages/Home/Home'
 import NavBar from './components/NavBar/NavBar'
+import Movies from './pages/Movies/Movies'
 
 class App extends Component {
   state = {
@@ -29,6 +30,9 @@ class App extends Component {
           />
           <Route exact path='/About'
             render={props => <About {...props} value =''/>}
+          />
+          <Route exact path='/Movies'
+            render={props => <Movies {...props} value =''/>}
           />
         </Switch>
       </div>
