@@ -3,5 +3,96 @@
     "title": "Iron Man",
     "year": 2008,
     "img_url": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTczNTI2ODUwOF5BMl5BanBnXkFtZTcwMTU0NTIzMw@@._V1_SY1000_CR0,0,674,1000_AL_.jpg"
+  },
+  {
+    "title": "The Incredible Hulk",
+    "year": 2008,
+    "img_url": "http://dangerousuniverse.com/wp-content/uploads/2017/05/The-Incredible-Hulk-1300x1912.jpg"
+  },
+  {
+    "title": "Iron Man 2",
+    "year": 2010,
+    "img_url": "http://www.impawards.com/2010/posters/iron_man_two_ver6_xlg.jpg"
+  },
+  {
+    "title": "Thor",
+    "year": 2011,
+    "img_url": "https://vignette.wikia.nocookie.net/marvelmovies/images/e/ee/Thor_poster_03.jpg/revision/latest?cb=20110318204312"
+  },
+  {
+    "title": "Captain America: The First Avenger",
+    "year": 2011,
+    "img_url": "http://www.impawards.com/2011/posters/captain_america_the_first_avenger_ver6.jpg"
+  },
+  {
+    "title": "Marvel's The Avengers",
+    "year": 2012,
+    "img_url": "https://vignette.wikia.nocookie.net/marvelmovies/images/8/8f/2012_Avengers_Poster.jpg/revision/latest/scale-to-width-down/1000?cb=20140224212535"
+  },
+  {
+    "title": "Iron Man 3",
+    "year": 2013,
+    "img_url": "http://cdn.collider.com/wp-content/uploads/iron-man-3-international-poster1.jpg"
+  },
+  {
+    "title": "Thor: The Dark World",
+    "year": 2013,
+    "img_url": "http://www.impawards.com/2013/posters/thor_the_dark_world_ver2_xlg.jpg"
+  },
+  {
+    "title": "Captain America: The Winter Soldier",
+    "year": 2014,
+    "img_url": "http://www.joblo.com/posters/images/full/captain-america-tws-imax.jpg"
+  },
+  {
+    "title": "Guardians of the Galaxy",
+    "year": 2014,
+    "img_url": "http://bookyurt.com/wp-content/uploads/2014/07/Guardians-of-the-Galaxy-poster-3.jpg"
+  },
+  {
+    "title": "Avengers: Age of Ultron",
+    "year": 2015,
+    "img_url": "https://pre00.deviantart.net/b324/th/pre/i/2015/287/1/1/avengers__age_of_ultron_poster_by_camw1n-d82jwmz.png"
+  },
+  {
+    "title": "Ant-Man",
+    "year": 2015,
+    "img_url": "http://www.joblo.com/posters/images/full/ant-man-international-2.jpg"
+  },
+  {
+    "title": "Captain America: Civil War",
+    "year": 2016,
+    "img_url": "http://akns-images.eonline.com/eol_images/Entire_Site/201627/rs_634x940-160307074539-634.captain-america-civil-war-poster-chris-evans-robert-downey-jr.3716.jpg"
+  },
+  {
+    "title": "Doctor Strange",
+    "year": 2016,
+    "img_url": "https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/2/20/Doctor_Strange_Character_Poster_02.jpg/revision/latest?cb=20160927161343"
+  },
+  {
+    "title": "Guardians of the Galaxy Vol. 2",
+    "year": 2017,
+    "img_url": "https://cdn.shopify.com/s/files/1/0558/2081/products/KTaylor_GOTGVol2_REG_FINAL_SM_1024x1024.jpg?v=1500824984"
+  },
+  {
+    "title": "Spider-Man: Homecoming",
+    "year": 2017,
+    "img_url": "https://i.redd.it/pslzf509nb1z.jpg"
+  },
+  {
+    "title": "Thor: Ragnarok",
+    "year": 2017,
+    "img_url": "https://vignette.wikia.nocookie.net/marveldatabase/images/d/de/Thor_Ragnarok_poster_015.jpg/revision/latest?cb=20170920170510"
+  },
+  {
+    "title": "Black Panther",
+    "year": 2018,
+    "img_url": "https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/3/36/Black_Panther_Poster.jpg/revision/latest?cb=20171207153752"
+  },
+  {
+    "title": "Avengers: Infinity Wars",
+    "year": 2018,
+    "img_url": "https://i.imgur.com/48B2lE5.png"
   }
+
 ]

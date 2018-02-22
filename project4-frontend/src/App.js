@@ -9,6 +9,8 @@ import About from './pages/About/About'
 import Home from './pages/Home/Home'
 import NavBar from './components/NavBar/NavBar'
 import Movies from './pages/Movies/Movies'
+import ClassPicture from './pages/ClassPicture/ClassPicture'
+import Reviews from './pages/Reviews/Reviews'
 
 class App extends Component {
   state = {
@@ -33,6 +35,12 @@ class App extends Component {
           />
           <Route exact path='/Movies'
             render={props => <Movies {...props} value =''/>}
+          />
+          <Route exact path='/Reviews'
+            render={props => <Reviews {...props} value ='' />}
+          />
+          <Route exact path='/Class'
+            render={props => <ClassPicture {...props} value =''/>}
           />
         </Switch>
       </div>

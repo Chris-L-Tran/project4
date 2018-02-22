@@ -32,7 +32,9 @@ class Movies extends Component {
           {this.state.movies.map((item, idx) => {
             return <div className='movie'>
               <h1>{item.title}</h1>
-              <img src={item.img_url} />
+              <div className='movie-img'>
+                <img src={item.img_url} />
+              </div>
               <p>{item.year}</p>
             </div>
           })}

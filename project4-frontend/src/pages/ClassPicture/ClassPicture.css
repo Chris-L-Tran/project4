@@ -1,0 +1,11 @@
+.class-picture {
+  max-width: 1000px;
+  padding-left: auto;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+img {
+  max-width: inherit;
+}

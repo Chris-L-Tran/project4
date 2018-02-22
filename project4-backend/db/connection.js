@@ -6,7 +6,7 @@ if (process.env.NODE_ENV === 'production') {
   .catch(err => console.log(err))
 } else {
   mongoose
-  .connect('mongodb://localhost/barberhub', { useMongoClient: true })
+  .connect('mongodb://localhost/marvel', { useMongoClient: true })
   .catch(err => console.log(err))
 }
 

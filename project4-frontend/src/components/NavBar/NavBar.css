@@ -6,6 +6,10 @@
 
 }
 
+.nav-bar {
+  min-width: 100%;
+}
+
 .caret {
   display: none;
 }

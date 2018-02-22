@@ -1,0 +1,12 @@
+.movie-img {
+  width: 200px !important;
+  max-height:200px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  max-width: inherit;
+  max-height: inherit;
+}

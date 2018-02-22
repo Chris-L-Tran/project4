@@ -7,7 +7,7 @@ import './NavBar.css'
 export default class NavBar extends Component {
   render () {
     return (
-      <div className='nav'>
+      <div className='nav-bar'>
         <Navbar inverse>
           <Navbar.Header>
             <NavDropdown title={
@@ -18,6 +18,8 @@ export default class NavBar extends Component {
               noCarat>
               <MenuItem href='/'>Home</MenuItem>
               <MenuItem href='/Movies'>Movies</MenuItem>
+              <MenuItem href='/Reviews'>Reviews</MenuItem>
+              <MenuItem href='/Class'>ClassPicture</MenuItem>
               <MenuItem href='/About'>About</MenuItem>
             </NavDropdown>
           </Navbar.Header>
