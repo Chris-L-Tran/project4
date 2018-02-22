@@ -27,11 +27,19 @@ class Movies extends Component {
       })
   }
 
-  
+
   render () {
     return (
-      <div className='Movies'>
-        Hello this is the movies page
+      <div className='movies'>
+        <div className='movies-list'>
+          {this.state.movies.map((item, idx) => {
+            return <div className='movie'>
+              <h1>{item.title}</h1>
+              <img src={item.img_url}></img>
+              <p>{item.year}</p>
+            </div>
+          })}
+        </div>
       </div>
     )
   }
