@@ -1,0 +1,24 @@
+.nav {
+
+  display: flex !important;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+
+.caret {
+  display: none;
+}
+
+.dropdown {
+  margin-top: 8px;
+}
+
+.navbar {
+  width: 100%;
+  border-radius: 0 !important;
+}
+
+.container {
+  width: 100%;
+}
