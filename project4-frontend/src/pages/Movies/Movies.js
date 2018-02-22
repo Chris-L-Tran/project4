@@ -11,13 +11,14 @@ class Movies extends Component {
       path: path
     })
 
-    state = {
+    this. state = {
       movies: []
     }
 
     axios
       .get('http://localhost:9000')
-      .then((res.err) => {
+      .then((res, err) => {
+        console.log(res)
         this.setState({
           movies: res.data
         })
@@ -30,15 +31,16 @@ class Movies extends Component {
 
   render () {
     return (
-      <div className='movies'>
+      <div className='all-movies'>
         <div className='movies-list'>
-          {this.state.movies.map((item, idx) => {
+          {this.state.movies}
+          {/* {this.state.movies.map((item, idx) => {
             return <div className='movie'>
               <h1>{item.title}</h1>
               <img src={item.img_url}></img>
               <p>{item.year}</p>
             </div>
-          })}
+          })} */}
         </div>
       </div>
     )
