@@ -31,6 +31,8 @@
 }
 
 .App {
+  background: black;
+  color: white;
   text-align: center;
   display: grid;
   grid-template-columns: 20% 60% 20%;

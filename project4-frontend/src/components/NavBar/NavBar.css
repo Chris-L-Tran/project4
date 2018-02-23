@@ -21,12 +21,16 @@
 .navbar-header {
   position: relative;
   right: 15px;
+  color: black !important;
+
 }
 
 .nav-bar {
   min-width: 100%;
 }
-
+.dropdown-open .dropdown-toggle .caret {
+  display: none;
+}
 .caret {
   /*display: none;*/
 }

@@ -26,13 +26,14 @@ export default class NavBar extends Component {
                 <MenuItem href='/Trivia'>Trivia</MenuItem>
               </NavDropdown>
               <MenuItem href='/Class'>ClassPicture</MenuItem>
+              <MenuItem divider />
               <MenuItem href='/About'>About</MenuItem>
             </NavDropdown>
           </Navbar.Header>
           <Nav pullRight>
 
-            <Button className = 'btn-add' href='/Add'>Add an Item</Button>
-            <Button className = 'btn-login' href='/Construction' bsStyle='primary'>Login</Button>
+            <Button className='btn-add' href='/Add'>Add an Item</Button>
+            <Button className='btn-login' href='/Construction' bsStyle='primary'>Login</Button>
 
           </Nav>
         </Navbar>
