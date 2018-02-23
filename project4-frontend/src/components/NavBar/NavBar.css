@@ -6,6 +6,10 @@
 
 }
 
+.navbar-right {
+  padding-top:7px;
+}
+
 .nav-bar {
   min-width: 100%;
 }

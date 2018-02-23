@@ -31,8 +31,8 @@ export default class NavBar extends Component {
 
           <Nav pullRight>
 
-            <Link to='/add'>Add an Item</Link>
-            <NavItem href='/add'>Add an Item</NavItem>
+            <Button href='/Add'>Add an Item</Button>
+            <Button href='/login' bsStyle='primary'>Login</Button>
 
           </Nav>
         </Navbar>

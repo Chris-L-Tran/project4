@@ -1,18 +1,24 @@
-.bg1 {
-  background: red !important;
-  max-width: 800px;
-  height: 100%;
-  position: absolute;
-  right: 500px;
-  top: 500px;
+
+.navbar {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.bg1{
+  grid-column-start: 1;
+  grid-row-start: 2;
+}
+
+.content {
+  grid-row-start: 2;
+  grid-column-start: 2;
 }
 
 .App {
   text-align: center;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-flow: row wrap;
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  grid-template-rows: 53px 90%;
 }
 
 .App-logo {

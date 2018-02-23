@@ -1,9 +1,11 @@
 .class-picture {
-  max-width: 1000px;
+  max-width: 100%;
+  width: auto;
   padding-left: auto;
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
+  padding-top: 100px;
 }
 
 img {

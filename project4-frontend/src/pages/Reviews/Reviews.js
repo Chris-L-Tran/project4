@@ -32,7 +32,7 @@ class Reviews extends Component {
             return <div className='review'>
               <h3>{item.title}</h3>
               <a href= {item.imdb} target="_blank">Imdb</a><br />
-              <a href={item.meta}>MetaCritic</a>
+              <a href={item.meta}target="_blank">MetaCritic</a>
             </div>
           })}
         </div>

@@ -21,12 +21,15 @@ class App extends Component {
     return (
       <div className='App'>
 
-        <NavBar />
-
-        <div className="bg1">
-          <img src="http://digitalspyuk.cdnds.net/17/30/1600x800/landscape-1500890190-avengers-infinity-war-poster-resized-1.jpg" />
+        <div className='navbar'>
+          <NavBar />
         </div>
 
+        <div className='bg1'>
+          {/* <img src='http://moviemarker.co.uk/wp-content/uploads/2012/04/avengers_movie_wallpaper2.jpg' /> */}
+        </div>
+
+      <div className='content'>
         <Switch>
           <Route exact path ='/'
             render={props => <Home {...props} value =''/> }
@@ -47,8 +50,7 @@ class App extends Component {
             render={props => <ClassPicture {...props} value =''/>}
           />
         </Switch>
-
-        <div classname='bg2' />
+      </div>
       </div>
     )
   }
