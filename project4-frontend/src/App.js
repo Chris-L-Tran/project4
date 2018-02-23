@@ -51,6 +51,9 @@ class App extends Component {
           />
         </Switch>
       </div>
+
+      <div className='bg2' />
+
       </div>
     )
   }

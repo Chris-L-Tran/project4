@@ -21,6 +21,7 @@ img {
   display: flex;
   flex-flow: row wrap;
   max-width: 700px;
+  justify-content: center;
 }
 
 .movie-title {

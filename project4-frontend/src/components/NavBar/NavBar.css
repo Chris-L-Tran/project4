@@ -6,8 +6,21 @@
 
 }
 
+.btn-add {
+  margin-right: 5px;
+}
+
+.btn-login {
+  margin-right: 3px;
+}
+
 .navbar-right {
   padding-top:7px;
+}
+
+.navbar-header {
+  position: relative;
+  right: 15px;
 }
 
 .nav-bar {
@@ -25,7 +38,11 @@
 
 .navbar-inverse {
   flex-flow: row !important;
+  position: fixed;
+  top: 0px;
+  width: 100%;
 }
+
 .navbar {
   width: 100%;
   border-radius: 0 !important;
