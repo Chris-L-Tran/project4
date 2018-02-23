@@ -14,6 +14,7 @@ import Reviews from './pages/Reviews/Reviews'
 import Large from './pages/Large/Large'
 import Construction from './pages/Construction/Construction'
 import Trivia from './pages/Trivia/Trivia'
+import Characters from './pages/Characters/Characters'
 
 class App extends Component {
   state = {
@@ -60,6 +61,12 @@ class App extends Component {
           />
           <Route exact path='/Trivia'
             render={props => <Trivia {...props} value=''/>}
+          />
+          <Route exact path='/Characters'
+            render={props => <Characters {...props} value=''/>}
+          />
+          <Route exact path='/Characters/Trivia'
+            render={props => <Characters {...props} value=''/>}
           />
         </Switch>
       </div>

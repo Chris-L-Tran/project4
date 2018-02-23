@@ -25,6 +25,10 @@ export default class NavBar extends Component {
                 <MenuItem href='/Reviews'>Reviews</MenuItem>
                 <MenuItem href='/Trivia'>Trivia</MenuItem>
               </NavDropdown>
+              <NavDropdown title='Characters' position='left'>
+                <MenuItem href='/Characters'>All Characters</MenuItem>
+                <MenuItem href='/Characters/Trivia'>Trivia</MenuItem>
+              </NavDropdown>
               <MenuItem href='/Class'>ClassPicture</MenuItem>
               <MenuItem divider />
               <MenuItem href='/About'>About</MenuItem>
