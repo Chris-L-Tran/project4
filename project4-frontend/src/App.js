@@ -12,6 +12,7 @@ import Movies from './pages/Movies/Movies'
 import ClassPicture from './pages/ClassPicture/ClassPicture'
 import Reviews from './pages/Reviews/Reviews'
 import Large from './pages/Large/Large'
+import Construction from './pages/Construction/Construction'
 
 class App extends Component {
   state = {
@@ -52,6 +53,9 @@ class App extends Component {
           />
           <Route exact path='/Large'
             render={props => <Large {...props} value =''/>}
+          />
+          <Route exact path='/Construction'
+            render={props => <Construction {...props} value =''/>}
           />
 
         </Switch>

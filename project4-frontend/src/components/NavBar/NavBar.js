@@ -32,7 +32,7 @@ export default class NavBar extends Component {
           <Nav pullRight>
 
             <Button className = 'btn-add' href='/Add'>Add an Item</Button>
-            <Button className = 'btn-login' href='/login' bsStyle='primary'>Login</Button>
+            <Button className = 'btn-login' href='/Construction' bsStyle='primary'>Login</Button>
 
           </Nav>
         </Navbar>
