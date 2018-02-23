@@ -16,8 +16,12 @@
 
 .dropdown {
   margin-top: 8px;
+  max-width: 100px;
 }
 
+.navbar-inverse {
+  flex-flow: row !important;
+}
 .navbar {
   width: 100%;
   border-radius: 0 !important;
