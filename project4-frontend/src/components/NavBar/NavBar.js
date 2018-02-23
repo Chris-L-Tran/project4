@@ -4,6 +4,8 @@ import { Navbar, Nav, NavItem, MenuItem, NavDropdown, Button, Glyphicon } from '
 import { Link } from 'react-router-dom'
 import './NavBar.css'
 
+import { Dropdown } from 'semantic-ui-react'
+
 export default class NavBar extends Component {
   render () {
     return (
@@ -15,10 +17,13 @@ export default class NavBar extends Component {
                 <Glyphicon glyph='align-justify' />
               </Button>
               }
-              noCarat>
+              caratColor='black'>
               <MenuItem href='/'>Home</MenuItem>
-              <MenuItem href='/Movies'>Movies</MenuItem>
-              <MenuItem href='/Reviews'>Reviews</MenuItem>
+              <MenuItem divider />
+              <NavDropdown title='Movies' position='left'>
+                <MenuItem href='/Movies'>All Movies</MenuItem>
+                <MenuItem href='/Reviews'>Reviews</MenuItem>
+              </NavDropdown>
               <MenuItem href='/Class'>ClassPicture</MenuItem>
               <MenuItem href='/About'>About</MenuItem>
             </NavDropdown>

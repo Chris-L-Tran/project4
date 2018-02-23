@@ -31,7 +31,7 @@ class Movies extends Component {
         <div className='movies-list'>
           {this.state.movies.map((item, idx) => {
             return <div className='movie'>
-              <h1>{item.title}</h1>
+              <div className='movie-title'>{item.title}</div>
               <div className='movie-img'>
                 <img src={item.img_url} />
               </div>
