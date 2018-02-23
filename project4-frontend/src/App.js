@@ -23,6 +23,10 @@ class App extends Component {
 
         <NavBar />
 
+        <div className="bg1">
+          <img src="http://digitalspyuk.cdnds.net/17/30/1600x800/landscape-1500890190-avengers-infinity-war-poster-resized-1.jpg" />
+        </div>
+
         <Switch>
           <Route exact path ='/'
             render={props => <Home {...props} value =''/> }
@@ -43,6 +47,8 @@ class App extends Component {
             render={props => <ClassPicture {...props} value =''/>}
           />
         </Switch>
+
+        <div classname='bg2' />
       </div>
     )
   }
