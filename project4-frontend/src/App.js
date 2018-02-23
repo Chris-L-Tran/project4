@@ -15,6 +15,7 @@ import Large from './pages/Large/Large'
 import Construction from './pages/Construction/Construction'
 import Trivia from './pages/Trivia/Trivia'
 import Characters from './pages/Characters/Characters'
+import Footer from './components/Footer/Footer'
 
 class App extends Component {
   state = {
@@ -73,6 +74,9 @@ class App extends Component {
 
       <div className='bg2' />
 
+      <div className='footer'>
+        <Footer/>
+      </div>
       </div>
     )
   }

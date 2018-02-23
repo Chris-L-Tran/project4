@@ -1,6 +1,6 @@
 .movie-img {
   width: 200px !important;
-  max-height:200px !important;
+  max-height:300px !important;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,6 +19,9 @@ img {
   flex-direction: column;
   align-items: center;
   max-width: 200px;
+  height: 400px;
+  margin: 10px 10px 50px 10px;
+
 }
 .movies-list {
   margin-top: 50px;

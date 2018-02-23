@@ -12,9 +12,13 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 0px 50px;
-
 }
 
+.footer {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  border-top: 2px solid grey;
+}
 .bg2 {
   grid-column-start: 3;
   grid-row-start: 2;

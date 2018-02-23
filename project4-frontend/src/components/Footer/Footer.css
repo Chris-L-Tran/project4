@@ -1,0 +1,14 @@
+.footer {
+  position: fixed;
+  bottom: 0px;
+  background: black;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.signature {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}

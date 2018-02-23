@@ -27,6 +27,10 @@ class Reviews extends Component {
   render () {
     return (
       <div className='all-reviews'>
+        <div className='review-title'>
+          Review Sites
+        </div>
+        <hr />
         <div className='reviews-list'>
           {this.state.movies.map((item, idx) => {
             return <div className='review'>
