@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './AddItem.css'
 
 class AddItem extends Component {
   constructor (props) {
@@ -20,7 +21,7 @@ class AddItem extends Component {
 
   render () {
     return (
-      <div>
+      <div className='add-item'>
         <h2>This is the add Item page. </h2>
         <a href='/'>Home</a>
         <div className='container'>

@@ -23,12 +23,12 @@ export default class NavBar extends Component {
               <NavDropdown title='Movies' position='left'>
                 <MenuItem href='/Movies'>All Movies</MenuItem>
                 <MenuItem href='/Reviews'>Reviews</MenuItem>
+                <MenuItem href='/Trivia'>Trivia</MenuItem>
               </NavDropdown>
               <MenuItem href='/Class'>ClassPicture</MenuItem>
               <MenuItem href='/About'>About</MenuItem>
             </NavDropdown>
           </Navbar.Header>
-
           <Nav pullRight>
 
             <Button className = 'btn-add' href='/Add'>Add an Item</Button>

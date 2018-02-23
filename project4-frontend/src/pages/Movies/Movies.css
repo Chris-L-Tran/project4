@@ -6,10 +6,14 @@
   align-items: center;
 }
 
+.movie-title{
+  height: 70px;
+}
 img {
   max-width: inherit;
   max-height: inherit;
 }
+
 .movie {
   display: flex;
   flex-direction: column;
@@ -22,8 +26,15 @@ img {
   flex-flow: row wrap;
   max-width: 700px;
   justify-content: center;
+
 }
 
+.all-movies {
+
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
 .movie-title {
   font-size: 20px;
 }

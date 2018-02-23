@@ -4,7 +4,7 @@ import { Navbar, Nav, NavItem, MenuItem, NavDropdown, Button, Glyphicon } from '
 import logo from './logo.svg'
 import './App.css'
 
-import AddItem from './components/AddItem'
+import AddItem from './components/AddItem/AddItem'
 import About from './pages/About/About'
 import Home from './pages/Home/Home'
 import NavBar from './components/NavBar/NavBar'
@@ -13,6 +13,7 @@ import ClassPicture from './pages/ClassPicture/ClassPicture'
 import Reviews from './pages/Reviews/Reviews'
 import Large from './pages/Large/Large'
 import Construction from './pages/Construction/Construction'
+import Trivia from './pages/Trivia/Trivia'
 
 class App extends Component {
   state = {
@@ -36,7 +37,7 @@ class App extends Component {
           <Route exact path ='/'
             render={props => <Home {...props} value =''/> }
           />
-          <Route exact path='/add'
+          <Route exact path='/Add'
             render={props => <AddItem {...props} value = ''/>}
           />
           <Route exact path='/About'
@@ -57,7 +58,9 @@ class App extends Component {
           <Route exact path='/Construction'
             render={props => <Construction {...props} value =''/>}
           />
-
+          <Route exact path='/Trivia'
+            render={props => <Trivia {...props} value=''/>}
+          />
         </Switch>
       </div>
 
