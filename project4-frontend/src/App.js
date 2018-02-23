@@ -11,6 +11,7 @@ import NavBar from './components/NavBar/NavBar'
 import Movies from './pages/Movies/Movies'
 import ClassPicture from './pages/ClassPicture/ClassPicture'
 import Reviews from './pages/Reviews/Reviews'
+import Large from './pages/Large/Large'
 
 class App extends Component {
   state = {
@@ -49,6 +50,10 @@ class App extends Component {
           <Route exact path='/Class'
             render={props => <ClassPicture {...props} value =''/>}
           />
+          <Route exact path='/Large'
+            render={props => <Large {...props} value =''/>}
+          />
+
         </Switch>
       </div>
 
