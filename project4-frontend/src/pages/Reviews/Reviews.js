@@ -20,6 +20,7 @@ class Reviews extends Component {
       this.setState({
         movies: res.data
       })
+      console.log(this.state.movies[0].imdb)
     })
   }
 
@@ -30,7 +31,7 @@ class Reviews extends Component {
           {this.state.movies.map((item, idx) => {
             return <div className='review'>
               <h3>{item.title}</h3>
-              <a href= "https://www.imdb.com" target="_blank">Imdb</a><br />
+              <a href= {item.imdb} target="_blank">Imdb</a><br />
               <a href={item.meta}>MetaCritic</a>
             </div>
           })}

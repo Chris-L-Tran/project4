@@ -2,97 +2,135 @@
   {
     "title": "Iron Man",
     "year": 2008,
-    "img_url": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTczNTI2ODUwOF5BMl5BanBnXkFtZTcwMTU0NTIzMw@@._V1_SY1000_CR0,0,674,1000_AL_.jpg"
+    "img_url": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTczNTI2ODUwOF5BMl5BanBnXkFtZTcwMTU0NTIzMw@@._V1_SY1000_CR0,0,674,1000_AL_.jpg",
+    "imdb": "http://www.imdb.com/title/tt0371746/?ref_=fn_al_tt_1",
+    "meta": "http://www.metacritic.com/movie/iron-man"
   },
   {
     "title": "The Incredible Hulk",
     "year": 2008,
-    "img_url": "http://dangerousuniverse.com/wp-content/uploads/2017/05/The-Incredible-Hulk-1300x1912.jpg"
+    "img_url": "http://dangerousuniverse.com/wp-content/uploads/2017/05/The-Incredible-Hulk-1300x1912.jpg",
+    "imdb": "http://www.imdb.com/title/tt0800080/?ref_=nv_sr_2",
+    "meta": "http://www.metacritic.com/movie/the-incredible-hulk"
   },
   {
     "title": "Iron Man 2",
     "year": 2010,
-    "img_url": "http://www.impawards.com/2010/posters/iron_man_two_ver6_xlg.jpg"
+    "img_url": "http://www.impawards.com/2010/posters/iron_man_two_ver6_xlg.jpg",
+    "imdb": "http://www.imdb.com/title/tt1228705/?ref_=nv_sr_1",
+    "meta": "http://www.metacritic.com/movie/iron-man-2"
   },
   {
     "title": "Thor",
     "year": 2011,
-    "img_url": "https://vignette.wikia.nocookie.net/marvelmovies/images/e/ee/Thor_poster_03.jpg/revision/latest?cb=20110318204312"
+    "img_url": "https://vignette.wikia.nocookie.net/marvelmovies/images/e/ee/Thor_poster_03.jpg/revision/latest?cb=20110318204312",
+    "imdb": "http://www.imdb.com/title/tt0800369/?ref_=nv_sr_2",
+    "meta": "http://www.metacritic.com/movie/thor"
   },
   {
     "title": "Captain America: The First Avenger",
     "year": 2011,
-    "img_url": "http://www.impawards.com/2011/posters/captain_america_the_first_avenger_ver6.jpg"
+    "img_url": "http://www.impawards.com/2011/posters/captain_america_the_first_avenger_ver6.jpg",
+    "imdb": "http://www.imdb.com/title/tt0458339/?ref_=nv_sr_1",
+    "meta": "http://www.metacritic.com/movie/captain-america-the-first-avenger"
   },
   {
     "title": "Marvel's The Avengers",
     "year": 2012,
-    "img_url": "https://vignette.wikia.nocookie.net/marvelmovies/images/8/8f/2012_Avengers_Poster.jpg/revision/latest/scale-to-width-down/1000?cb=20140224212535"
+    "img_url": "https://vignette.wikia.nocookie.net/marvelmovies/images/8/8f/2012_Avengers_Poster.jpg/revision/latest/scale-to-width-down/1000?cb=20140224212535",
+    "imdb": "http://www.imdb.com/title/tt0848228/?ref_=nv_sr_2",
+    "meta": "http://www.metacritic.com/movie/the-avengers-2012"
   },
   {
     "title": "Iron Man 3",
     "year": 2013,
-    "img_url": "http://cdn.collider.com/wp-content/uploads/iron-man-3-international-poster1.jpg"
+    "img_url": "http://cdn.collider.com/wp-content/uploads/iron-man-3-international-poster1.jpg",
+    "imdb": "http://www.imdb.com/title/tt1300854/?ref_=nv_sr_1",
+    "meta": "http://www.metacritic.com/movie/iron-man-3"
   },
   {
     "title": "Thor: The Dark World",
     "year": 2013,
-    "img_url": "http://www.impawards.com/2013/posters/thor_the_dark_world_ver2_xlg.jpg"
+    "img_url": "http://www.impawards.com/2013/posters/thor_the_dark_world_ver2_xlg.jpg",
+    "imdb": "http://www.imdb.com/title/tt1981115/?ref_=fn_al_tt_1",
+    "meta": "http://www.metacritic.com/movie/thor-the-dark-world"
   },
   {
     "title": "Captain America: The Winter Soldier",
     "year": 2014,
-    "img_url": "http://www.joblo.com/posters/images/full/captain-america-tws-imax.jpg"
+    "img_url": "http://www.joblo.com/posters/images/full/captain-america-tws-imax.jpg",
+    "imdb": "http://www.imdb.com/title/tt1843866/?ref_=fn_al_tt_4",
+    "meta": "http://www.metacritic.com/movie/captain-america-the-winter-soldier"
   },
   {
     "title": "Guardians of the Galaxy",
     "year": 2014,
-    "img_url": "http://bookyurt.com/wp-content/uploads/2014/07/Guardians-of-the-Galaxy-poster-3.jpg"
+    "img_url": "http://bookyurt.com/wp-content/uploads/2014/07/Guardians-of-the-Galaxy-poster-3.jpg",
+    "imdb": "http://www.imdb.com/title/tt2015381/?ref_=fn_al_tt_1",
+    "meta": "http://www.metacritic.com/movie/guardians-of-the-galaxy"
   },
   {
     "title": "Avengers: Age of Ultron",
     "year": 2015,
-    "img_url": "https://pre00.deviantart.net/b324/th/pre/i/2015/287/1/1/avengers__age_of_ultron_poster_by_camw1n-d82jwmz.png"
+    "img_url": "https://pre00.deviantart.net/b324/th/pre/i/2015/287/1/1/avengers__age_of_ultron_poster_by_camw1n-d82jwmz.png",
+    "imdb": "http://www.imdb.com/title/tt2395427/?ref_=nv_sr_1",
+    "meta": "http://www.metacritic.com/movie/avengers-age-of-ultron"
   },
   {
     "title": "Ant-Man",
     "year": 2015,
-    "img_url": "http://www.joblo.com/posters/images/full/ant-man-international-2.jpg"
+    "img_url": "http://www.joblo.com/posters/images/full/ant-man-international-2.jpg",
+    "imdb": "http://www.imdb.com/title/tt0478970/?ref_=fn_al_tt_1",
+    "meta": "http://www.metacritic.com/movie/ant-man"
   },
   {
     "title": "Captain America: Civil War",
     "year": 2016,
-    "img_url": "http://akns-images.eonline.com/eol_images/Entire_Site/201627/rs_634x940-160307074539-634.captain-america-civil-war-poster-chris-evans-robert-downey-jr.3716.jpg"
+    "img_url": "http://akns-images.eonline.com/eol_images/Entire_Site/201627/rs_634x940-160307074539-634.captain-america-civil-war-poster-chris-evans-robert-downey-jr.3716.jpg",
+    "imdb": "http://www.imdb.com/title/tt3498820/?ref_=fn_al_tt_8",
+    "meta": "http://www.metacritic.com/movie/captain-america-civil-war"
   },
   {
     "title": "Doctor Strange",
     "year": 2016,
-    "img_url": "https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/2/20/Doctor_Strange_Character_Poster_02.jpg/revision/latest?cb=20160927161343"
+    "img_url": "https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/2/20/Doctor_Strange_Character_Poster_02.jpg/revision/latest?cb=20160927161343",
+    "imdb": "http://www.imdb.com/title/tt1211837/?ref_=fn_al_tt_1",
+    "meta": "http://www.metacritic.com/movie/doctor-strange"
   },
   {
     "title": "Guardians of the Galaxy Vol. 2",
     "year": 2017,
-    "img_url": "https://cdn.shopify.com/s/files/1/0558/2081/products/KTaylor_GOTGVol2_REG_FINAL_SM_1024x1024.jpg?v=1500824984"
-  },
+    "img_url": "https://cdn.shopify.com/s/files/1/0558/2081/products/KTaylor_GOTGVol2_REG_FINAL_SM_1024x1024.jpg?v=1500824984",
+    "imdb": "http://www.imdb.com/title/tt3896198/?ref_=fn_al_tt_2",
+    "meta": "http://www.metacritic.com/movie/guardians-of-the-galaxy-vol-2"
+   },
   {
     "title": "Spider-Man: Homecoming",
     "year": 2017,
-    "img_url": "https://i.redd.it/pslzf509nb1z.jpg"
+    "img_url": "https://i.redd.it/pslzf509nb1z.jpg",
+    "imdb": "http://www.imdb.com/title/tt2250912/?ref_=nv_sr_1",
+    "meta": "http://www.metacritic.com/movie/guardians-of-the-galaxy-vol-2"
   },
   {
     "title": "Thor: Ragnarok",
     "year": 2017,
-    "img_url": "https://vignette.wikia.nocookie.net/marveldatabase/images/d/de/Thor_Ragnarok_poster_015.jpg/revision/latest?cb=20170920170510"
+    "img_url": "https://vignette.wikia.nocookie.net/marveldatabase/images/d/de/Thor_Ragnarok_poster_015.jpg/revision/latest?cb=20170920170510",
+    "imdb": "http://www.imdb.com/title/tt3501632/?ref_=nv_sr_1",
+    "meta": "http://www.metacritic.com/movie/thor-ragnarok"
   },
   {
     "title": "Black Panther",
     "year": 2018,
-    "img_url": "https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/3/36/Black_Panther_Poster.jpg/revision/latest?cb=20171207153752"
+    "img_url": "https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/3/36/Black_Panther_Poster.jpg/revision/latest?cb=20171207153752",
+    "imdb": "http://www.imdb.com/title/tt1825683/?ref_=nv_sr_1",
+    "meta": "http://www.metacritic.com/movie/black-panther"
   },
   {
     "title": "Avengers: Infinity Wars",
     "year": 2018,
-    "img_url": "https://i.imgur.com/48B2lE5.png"
+    "img_url": "https://i.imgur.com/48B2lE5.png",
+    "imdb": "http://www.imdb.com/title/tt4154756/?ref_=nv_sr_1",
+    "meta:": "http://www.metacritic.com/movie/avengers-infinity-war"
   }
 
 ]
